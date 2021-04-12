@@ -18,5 +18,9 @@ typora-copy-images-to: ..\images
 
 시험 합격의 또다른 혜택은 구글의 [텐서플로 개발자 자격증 네트워크](https://developers.google.com/certification/directory/tensorflow) 에 등록이 됩니다. 아래 사진은 실제로 네트워크에 개제된 저의 사진 입니다.
 
-<img src="..\images\network.PNG" alt="network"  />
+
+
+<img src="..\images\network.png" alt="network"  />
+
+
 
