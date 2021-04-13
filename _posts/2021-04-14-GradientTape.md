@@ -150,10 +150,10 @@ for epoch in range(EPOCHS):
     valid_acc.reset_states()
     
     for image,label in train_data:
-        train_step(image,label)
+        train_step(image,label)			# 학습
         
     for image,label in valid_data:
-        valid_step(image,label)
+        valid_step(image,label)			# 검증
         
     print(f'epoch: {epoch+1}, loss: {train_loss.result()}, acc: {train_acc.result()}, val_loss: {valid_loss.result()}, val_acc: {valid_acc.result()}')
 ```
