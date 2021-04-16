@@ -1,3 +1,10 @@
+---
+layout: post
+title: "텐서플로 Sub Classing API를 활용한 모델링"
+---
+
+
+
 ```python
 #모듈 임포트
 import tensorflow as tf
@@ -23,7 +30,7 @@ print(f'x_train.min: {np.min(x_train)}, x_train.max: {np.max(x_train)}, x_valid.
 
     x_train.shape: (60000, 28, 28, 1), y_train.shape: (60000,), x_valid.shape: (10000, 28, 28, 1), y_valid: (10000,)
     x_train.min: 0.0, x_train.max: 1.0, x_valid.min: 0.0, x_valid.max: 1.0
-    
+
 
 ## Sub Classsing API로 모델링
 
@@ -100,7 +107,7 @@ model.summary()
     Trainable params: 156,458
     Non-trainable params: 0
     _________________________________________________________________
-    
+
 
 
 ```python
@@ -135,7 +142,7 @@ model.fit(x_train,y_train,
     1875/1875 [==============================] - 24s 13ms/step - loss: 0.0092 - acc: 0.9969 - val_loss: 0.0300 - val_acc: 0.9922
     Epoch 10/10
     1875/1875 [==============================] - 24s 13ms/step - loss: 0.0072 - acc: 0.9978 - val_loss: 0.0344 - val_acc: 0.9909
-    
+
 
 
 
