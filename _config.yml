@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "최성욱"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "관심분야: 딥러닝 "
+  bio              : ""
   location         : "경상남도 김해"
   email            :
   links:
