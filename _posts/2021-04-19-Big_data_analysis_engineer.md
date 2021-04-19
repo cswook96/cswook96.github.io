@@ -1,6 +1,6 @@
 ---
 layout: post
-post: "빅데이터 분석기사 필기 후기"
+title: "빅데이터 분석기사 필기 후기"
 typora-copy-images-to: ..\images
 ---
 
